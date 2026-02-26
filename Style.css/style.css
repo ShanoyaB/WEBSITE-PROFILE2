@@ -1,0 +1,327 @@
+/* =====================
+   Global Styles
+===================== */
+body {
+    margin: 0;
+    background: linear-gradient(black, plum);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.section-box {
+    border: 0.5% solid plum;
+    border-radius: 2%;
+    margin: 4%;
+    padding: 3%;
+}
+
+/* =====================
+   Header & Navigation
+===================== */
+header {
+    background-color: midnightblue;
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h1, #h2, #h3 {
+    font-size: 115%;
+    color: white;
+}
+
+/* Logo */
+#logo-img {
+    width: 6%;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+/* =====================
+   Home Intro
+===================== */
+#HOME {
+    font-size: 330%;
+    color: white;
+}
+
+.home-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    padding: 4%;
+    text-align: center;
+}
+
+/* =====================
+   Home Content
+===================== */
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Personality Circle */
+#hc1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    border-radius: 40%;
+    background-color: white;
+    color: midnightblue;
+    font-size: 145%;
+    text-align: center;
+}
+
+/* =====================
+   Text Cards
+===================== */
+.home-content1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    gap: 2%;
+}
+
+#hc1 {
+    font-family:fantasy;
+}
+
+#hc2, #hc3 {
+    padding: 3%;
+    font-size: 115%;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#hc2 {
+    margin-top: 12%;
+    background-color: black;
+    color: white;
+    width: 32%;
+}
+
+#hc3 {
+    background-color: darkmagenta;
+    color: white;
+    width: 52%;
+    text-align: center;
+}
+
+/* =====================
+   Image & Table Section
+===================== */
+
+.home-content2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+    border: 0.3% solid black;
+    border-radius: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.myself-img-div {
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+#myself-img {
+    width: 40%;
+    height: 50%;
+    border-radius: 49%;
+    border:solid;
+    border-color: black;
+}
+
+/* =====================
+   Table
+===================== */
+.movie-table {
+    width: 110%;
+    border-collapse: collapse;
+    border: 0.5% solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movie-table th,
+.movie-table td {
+    border: 0.2% solid black;
+    padding: 3%;
+    text-align: left;
+}
+
+/* Title row */
+.movie-title {
+    text-align: center;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+/* Image column */
+.movie-img {
+    width: 60%;
+    background-color: white;
+    text-align: center;
+}
+
+.movie-img img {
+    width: 70%;
+    height: 70%;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    color: aliceblue;
+}
+
+th {
+    background-color: black;
+    font-size: 120%;
+    padding: 1%;
+}
+
+td {
+    background-color: rgba(221, 147, 201, 0.4);
+    font-size: 110%;
+    padding: 1%;
+}
+
+/* =====================
+   Professional Section
+===================== */
+#prof-intro {
+    background-color: darkblue;
+    color: white;
+    font-size: 320%;
+    text-align: center;
+    padding: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prof-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    background-color: black;
+    font-family: Jumble, Chiller;
+}
+
+
+.prof-content div {
+    width: 40%;
+    background-color: lightsteelblue;
+    color: black;
+    padding: 3%;
+    font-size: 140%;
+}
+#link1 {
+    font-size: 130%;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#link2 {
+    font-size: 130%;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =====================
+   Report Section
+===================== */
+.report-intro {
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 320%;
+    text-align: center;
+    padding: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.report-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 4%;
+    background-color: black;
+    gap: 1%;
+    flex-flow: wrap;
+    overflow:hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.report-content div {
+    width: 68%;
+    margin: 3%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 3%;
+    font-size: 100%;
+    
+}
+
+/* =====================
+   Buttons (Hover Effect)
+===================== */
+button {
+    align-self:center;
+    padding: 2% 4%;
+    font-size: 120%;
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: plum;
+    transform: scale(1.05);
+}
+
+/* =====================
+   Reference Section
+===================== */
+#ref {
+    background-color: lavender;
+    font-size: 320%;
+    text-align: center;
+    padding: 4%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.doc-ref {
+    position: relative;
+    width: 90%;
+    padding-bottom: 36.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+  }
+  .doc-ref iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+  }
+
+/* =====================
+   Footer
+===================== */
+footer {
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
